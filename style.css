@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.sidebyside {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
