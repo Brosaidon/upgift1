@@ -6,6 +6,9 @@ body {
 .terminor {
     height: 20px;
     background-image: url(img/tetriminos-banner.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    top: center;
     margin-bottom: 32px;
 
 }
