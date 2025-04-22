@@ -1,0 +1,2 @@
+Vi har suttit skolan med datorerna brevid varandra.
+Haft en dator för att jämföra och en att skriva pch pusha kod. Så det är liten Diff på commit historiken som inte stämmer överrens med arbets fördelningen.
