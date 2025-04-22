@@ -4,11 +4,13 @@ body {
 }
 
 .terminor {
+
+    position: relative;
     height: 20px;
     background-image: url(img/tetriminos-banner.png);
     background-size: contain;
+    background-position: center;
     background-repeat: repeat-x;
-    top: center;
     margin-bottom: 32px;
 
 }
