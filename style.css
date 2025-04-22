@@ -28,7 +28,7 @@ body {
 }
 
 .menuButton {
-    display: flex;
+    display: none;
     background-color: blueviolet;
     flex-direction: row;
     justify-content: flex-end;
@@ -39,7 +39,7 @@ body {
     display: flex;
     background-color: blueviolet;
     flex-direction: column;
-    justify-content: space-between;
+
 }
 
 .column {
@@ -51,4 +51,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+
+    .menuButton {
+        display: flex;
+    }
 }
