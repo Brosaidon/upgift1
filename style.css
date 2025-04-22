@@ -25,8 +25,9 @@ body {
 .container {
     background: #ff2f1f;
     padding: 2rem, 0rem, ;
-    width: 100%;
-    max-width: 35rem;
+    width: 95%;
+    max-width: 50rem;
+    margin: auto;
 }
 
 .menuButton {
