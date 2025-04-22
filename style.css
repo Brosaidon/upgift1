@@ -28,12 +28,9 @@ body {
 }
 
 .menuButton {
-<<<<<<< HEAD
     display: flex;
-=======
     display: none;
     background-color: blueviolet;
->>>>>>> 350fafadb21667a0267b81a6f9cef01a5d2b71c8
     flex-direction: row;
     justify-content: flex-end;
     gap: 1rem;
@@ -54,4 +51,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+
+    .menuButton {
+        display: flex;
+    }
 }
