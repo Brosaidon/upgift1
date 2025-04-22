@@ -3,6 +3,12 @@ body {
     margin: 0rem;
 }
 
+.tetrisButton {
+    background-image: url(img\project-logo.png);
+    width: 391px;
+    height: 128px;
+}
+
 .terminor {
 
     position: relative;
