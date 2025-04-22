@@ -1,5 +1,12 @@
 body {
     box-sizing: border-box;
+    margin: 0rem;
+}
+
+.terminor {
+    height: 20px;
+    background: url(https://tetris.com/assets/brand/tetriminos-banner.png);
+    margin-bottom: 32px;
 }
 
 .container {
@@ -8,7 +15,7 @@ body {
     margin: auto;
 }
 
-.sidebyside {
+.sideBySideSmall {
     display: flex;
     flex-direction: row;
 }
@@ -16,4 +23,9 @@ body {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.sideBySideBig {
+    display: none;
+    flex-direction: row;
 }
