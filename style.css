@@ -5,9 +5,10 @@ body {
 }
 
 .tetrisButton {
-    background-image: url(img\project-logo.png);
-    width: 391px;
-    height: 128px;
+    border-color: blue;
+    width: "196";
+    height: "60";
+    background: #fff;
 }
 
 .terminor {
@@ -22,9 +23,11 @@ body {
 }
 
 .container {
+
     width: 100%;
     max-width: 80rem;
     margin: auto;
+    padding: 40px;
 }
 
 .menuButton {
@@ -40,6 +43,8 @@ body {
     display: flex;
     background-color: blueviolet;
     flex-direction: column;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .column {
@@ -53,9 +58,20 @@ body {
     justify-content: space-between;
 }
 
+.mainSection {
+    background: #ff8050;
+
+}
+
+.smallSection {
+    background: #90ff00;
+}
+
 @media (min-width: 768px) {
 
     .menuButton {
         display: flex;
     }
+
+    .tetrisButton {}
 }
