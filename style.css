@@ -29,7 +29,6 @@ body {
 
 .menuButton {
     display: flex;
-    background-color: blueviolet;
     flex-direction: row;
     justify-content: flex-end;
     gap: 1rem;
@@ -39,7 +38,6 @@ body {
     display: flex;
     background-color: blueviolet;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .column {
