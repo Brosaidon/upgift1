@@ -5,6 +5,7 @@ body {
 }
 
 .tetrisButton {
+    margin: auto;
     border-color: blue;
     width: "196";
     height: "60";
