@@ -38,14 +38,15 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     gap: 1rem;
+    height: 2rem;
 }
 
 .menuContainer {
     display: flex;
     background-color: blueviolet;
     flex-direction: column;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .column {
@@ -86,5 +87,7 @@ body {
         display: flex;
     }
 
-    .tetrisButton {}
+    .tetrisButton {
+        margin: 0;
+    }
 }
