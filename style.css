@@ -59,10 +59,12 @@ body {
 }
 
 .mainSection {
+    height: 20rem;
     background: #ff8050;
 }
 
 .smallSection {
+    height: 2rem;
     background: #90ff00;
 }
 
