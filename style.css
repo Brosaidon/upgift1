@@ -61,11 +61,23 @@ body {
 .mainSection {
     height: 20rem;
     background: #ff8050;
+    background-image: url(img/e60-playnow-feature.jpg);
+    background-size: cover;
 }
 
 .smallSection {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
     height: 2rem;
+    width: 100%;
     background: #90ff00;
+}
+
+.heroItem {
+    background-color: goldenrod;
+    width: 5rem;
+    flex: 1;
 }
 
 @media (min-width: 768px) {
