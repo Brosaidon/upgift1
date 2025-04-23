@@ -90,4 +90,24 @@ body {
     .tetrisButton {
         margin: 0;
     }
+
+    main {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .mainSection {
+        min-width: 75%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .smallSection {
+        flex-direction: column;
+        min-width: 20%;
+        height: auto;
+        padding: 0.0rem 0.3rem 0.0rem;
+    }
 }
