@@ -21,6 +21,11 @@ main {
     width: "196";
     height: "60";
     background: #fff;
+    transition-duration: 0.2s;
+}
+
+.tetrisButton:hover {
+    transform: scale(95%);
 }
 
 .terminor {
@@ -111,6 +116,11 @@ main {
     border-radius: var(--border);
     width: var(--size1);
     flex: 1;
+    transition-duration: 0.2s;
+}
+
+.heroItem:hover {
+    transform: scale(95%);
 }
 
 .latestA {
@@ -131,7 +141,12 @@ main {
     width: 100%;
     flex-grow: 1;
     bottom: 1px;
+    transition-duration: 0.2s;
 
+}
+
+.article:hover {
+    transform: scale(103%)
 }
 
 .side {
@@ -167,6 +182,7 @@ main {
     .tetrisButton {
         margin: 0;
     }
+
 
     .hero {
         display: flex;
