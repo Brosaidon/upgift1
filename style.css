@@ -59,6 +59,15 @@ main {
     height: 2rem;
 }
 
+.mButtonItem {
+    color: #82b9e9;
+    transition-duration: 0.1s;
+}
+
+.mButtonItem:hover {
+    color: #2d4d68;
+}
+
 .menuContainer {
     display: flex;
     background-color: blueviolet;
