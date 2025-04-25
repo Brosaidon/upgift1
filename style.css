@@ -77,7 +77,9 @@ body {
 
 .heroItem {
     background-color: goldenrod;
-    width: 5rem;
+    background-image: url(img/e60-playnow-feature.jpg);
+    background-size: cover;
+    width: 20rem;
     flex: 1;
 }
 
