@@ -1,3 +1,7 @@
+:root {
+    --size1: 20rem;
+}
+
 body {
     box-sizing: border-box;
     margin: 0rem;
@@ -79,7 +83,7 @@ body {
     background-color: goldenrod;
     background-image: url(img/e60-playnow-feature.jpg);
     background-size: cover;
-    width: 20rem;
+    width: var(--size1);
     flex: 1;
 }
 
@@ -97,19 +101,23 @@ body {
         display: flex;
         flex-grow: 1;
         flex-direction: row;
-        width: 100%;
     }
 
     .mainSection {
-        min-width: 75%;
+
         background-size: cover;
         background-position: center;
+        width: calc(100% - var(--size1));
     }
 
     .smallSection {
         flex-direction: column;
-        min-width: 20%;
+        width: var(--size1);
         height: auto;
         padding: 0.0rem 0.3rem 0.0rem;
+    }
+
+    .heroItem {
+        width: 100%;
     }
 }
