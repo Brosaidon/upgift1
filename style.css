@@ -8,7 +8,9 @@ body {
     font-family: "Mueso Sans", sans-serif;
 }
 
-main {}
+main {
+    display: flex;
+}
 
 .tetrisButton {
     margin: auto;
@@ -93,14 +95,24 @@ main {}
 
 .articleDiv {
     background: #3e5b17;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .article {
     background: #952e71;
+    width: 15rem;
 }
 
 .side {
+    display: none;
     background: #5eb584;
+    width: 15rem;
+}
+
+.post {
+    display: flex;
 }
 
 @media (min-width: 768px) {
@@ -113,7 +125,7 @@ main {}
         margin: 0;
     }
 
-    main {
+    .hero {
         display: flex;
         flex-grow: 1;
         flex-direction: row;
@@ -140,5 +152,9 @@ main {}
 
     .heroItem {
         width: 100%;
+    }
+
+    .side {
+        display: flex;
     }
 }
