@@ -106,7 +106,7 @@ main {
 
 .side {
     display: none;
-    width: var(--size1);
+    max-width: var(--size1);
     height: auto;
     padding: 0.0rem 0.3rem 0.0rem;
     background: #82b9e9;
