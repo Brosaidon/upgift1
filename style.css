@@ -28,10 +28,10 @@ body {
 }
 
 .container {
-    position: center;
+
     background: #ff2f1f;
     padding: 1.5rem;
-    width: 95%;
+    min-width: 5px, 0px;
     max-width: 80rem;
     margin: auto;
 }
