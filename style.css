@@ -8,6 +8,8 @@ body {
     font-family: "Mueso Sans", sans-serif;
 }
 
+main {}
+
 .tetrisButton {
     margin: auto;
     border-color: blue;
@@ -65,10 +67,11 @@ body {
 }
 
 .mainSection {
-    height: 20rem;
+    height: 25rem;
     background: #ff8050;
     background-image: url(img/e60-playnow-feature.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .smallSection {
@@ -88,6 +91,18 @@ body {
     flex: 1;
 }
 
+.articleDiv {
+    background: #3e5b17;
+}
+
+.article {
+    background: #952e71;
+}
+
+.side {
+    background: #5eb584;
+}
+
 @media (min-width: 768px) {
 
     .menuButton {
@@ -104,11 +119,16 @@ body {
         flex-direction: row;
     }
 
+    .container {
+        padding: 3rem;
+    }
+
     .mainSection {
 
         background-size: cover;
         background-position: center;
         width: calc(100% - var(--size1));
+
     }
 
     .smallSection {
