@@ -13,6 +13,8 @@ main {
     display: flex;
     flex-direction: column;
     background: #b997f1;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
 }
 
 .tetrisButton {
@@ -29,7 +31,6 @@ main {
 }
 
 .terminor {
-
     position: relative;
     height: 20px;
     background-image: url(img/tetriminos-banner.png);
@@ -85,6 +86,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    border-right: 1px gray solid;
 }
 
 .header {
@@ -172,7 +174,7 @@ main {
     display: flex;
 }
 
-@media (min-width: 768px) {
+@media (width >=768px) {
 
     .menuButton {
         display: flex;
@@ -184,8 +186,7 @@ main {
     }
 
     .articleDiv {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .tetrisButton {
@@ -223,5 +224,12 @@ main {
     .side {
         display: flex;
         flex-direction: column;
+    }
+
+    @media(width >=968px) {
+
+        .articleDiv {
+            flex-direction: row;
+        }
     }
 }
